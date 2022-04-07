@@ -23,6 +23,7 @@
   {% else %}
   {% endif %}
 
+   {% if site.socials == true %}
   <div class="widget widget-social">
     <h3 class="widget-title">Subscribe & Follow</h3>
     <ul class="social-profiles list-reset">
@@ -51,7 +52,9 @@
       {% else %} {% endif %}
     </ul>
   </div>
-
+{% endif %}
+  
+  {% if site.newsletter == true %}
   <div class="widget widget-newsletter">
     <h3 class="widget-title">Newsletter</h3>
     <div class="newsletter-subtitle">Get Interesting News</div>
@@ -68,7 +71,7 @@
       </div>
     </form>
   </div>
-
+ {% endif %}
   {% if site.instafeed == true %}
   <div class="widget widget-instagram">
     <h3 class="widget-title">Instagram</h3>
