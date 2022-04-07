@@ -20,6 +20,10 @@ twitter:   https://twitter.com/ # Add your Facebook handle
 instagram: https://www.instagram.com/ # Add your Facebook handle
 pinterest: https://www.pinterest.com/ # Add your Facebook handle
 
+#-------------------------------
+# Comment Section (Disqus)
+newsletter: false # Display newsletter on sidebar
+socials: false # Display social media profiles on sidebar
 
 #-------------------------------
 # Comment Section (Disqus)
